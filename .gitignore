@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+.vscode
+public/dist/
+.env.test
+.env.development
+debug.log
+yarn-error.log
+src/playground

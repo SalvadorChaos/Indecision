@@ -1,0 +1,15 @@
+.footer {
+  padding: $xl-size 0 2px 0;
+  text-align: center;
+  font-size: $s-size;
+  font-weight: 100;
+}
+
+.footer__link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: $cyan;
+}
