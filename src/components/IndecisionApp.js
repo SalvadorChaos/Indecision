@@ -59,7 +59,7 @@ export default class IndecisionApp extends React.Component {
   }
   render() {
     const subtitle = 'Put your life in the hands of a computer';
-    const footer = 'Made with Love by ';
+    const footer = 'Made with ❤ by ';
     return (
       <div>
         <Header subtitle={subtitle} />

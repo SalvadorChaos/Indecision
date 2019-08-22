@@ -1,4 +1,5 @@
 .footer {
+  color: $off-white;
   padding: $xl-size 0 2px 0;
   text-align: center;
   font-size: $s-size;
@@ -6,10 +7,9 @@
 }
 
 .footer__link {
-  color: white;
+  color: $off-white;
   text-decoration: none;
-}
-
-.footer__link:hover {
-  color: $cyan;
+  &:hover {
+    color: $cyan;
+  }
 }

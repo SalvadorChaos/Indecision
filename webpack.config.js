@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
   mode: 'none',
-  entry: './src/app.js',
+  entry: './public/js/app.js',
   output: {
     path: path.join(__dirname, 'public'),
-    filename: 'bundle.js'
+    filename: 'js/bundle.js'
   },
   module: {
     rules: [{

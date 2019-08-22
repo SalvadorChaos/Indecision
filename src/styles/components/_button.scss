@@ -3,16 +3,24 @@
   background: $purple;
   border: none;
   border-bottom: .6rem solid darken($purple, 10%);
-  color: white;
+  color: silver;
   font-size: $l-size;
   font-weight: bold;
   margin-bottom: $m-size;
   padding: 2.4rem;
   width: 100%;
+  &:hover {
+    background: darken($purple, 10%);;
+    color: $cyan;
+  }
 }
 
 .big-button:disabled {
+  color: lightgrey;
   opacity: .5;
+  &:hover {
+    background: $purple;
+  }
 }
 
 @media (min-width: $desktop-breakpoint) {
@@ -26,9 +34,13 @@
   background: $purple;
   border: none;
   border-bottom: .3rem solid darken($purple, 10%);
-  color: white;
+  color: lightgrey;
   font-weight: 500;
   padding: $s-size;
+  &:hover {
+    background: darken($purple, 10%);;
+    color: $cyan;
+  }
 }
 
 .button--link {
@@ -36,4 +48,8 @@
   border: none;
   color: $off-white;
   padding: 0;
+  &:hover {
+    background: none;
+    color: #ff5454;
+  }
 }

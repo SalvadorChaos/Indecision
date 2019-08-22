@@ -1,4 +1,5 @@
 .ReactModalPortal > div {
+  background: rgba(0, 0, 0, 0.75) !important;
   opacity: 0;
 }
 
@@ -18,8 +19,8 @@
 }
 
 .modal {
-  background: $light-blue;
-  color: white;
+  background: $dark-blue;
+  color: silver;
   max-width: 30rem;
   outline: none;
   padding: $l-size;
@@ -27,10 +28,12 @@
 }
 
 .modal__title {
+  color: silver;
   margin: 0 0 $m-size 0;
 }
 
 .modal__body {
+  color: lightgrey;
   font-size: 2rem;
   font-weight: 300;
   margin: 0 0 $l-size 0;
