@@ -6,7 +6,9 @@
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
-    "start": "node server/server.js",
+    "start": "CHOKIDAR_USEPOLLING=true node server/server.js",
+    "dev:up": "docker-compose -f docker-compose.yml -f dev.yml up",
+    "dev:build": "docker-compose -f docker-compose.yml -f dev.yml build",
     "build": "webpack",
     "dev-server": "webpack-dev-server --mode development"
   },
